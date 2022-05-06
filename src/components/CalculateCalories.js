@@ -1,8 +1,8 @@
 import React from 'react';
 
-let total;
 const CalculateCalories = (props) => {
   //This is an array of foods with quantity
+  let total;
   let selectedFoods = props.foodArr.filter((food) => {
     return food.quantity > 0;
   });
